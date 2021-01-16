@@ -27,7 +27,7 @@
         "ext-posix": "*",
         "ext-zip": "*",
         "adbario/php-dot-notation": "^2.2",
-        "composer/composer": "~1.10.5",
+        "composer/composer": "~2.0.8",
         "fzaninotto/faker": "~1.4",
         "n98/junit-xml": "~1.0",
         "pbergman/tree-helper": "^1.0",
@@ -43,7 +43,7 @@
     "require-dev": {
         "bamarni/symfony-console-autocomplete": "^1.2.0",
         "captainhook/captainhook": "^5.3",
-        "friendsofphp/php-cs-fixer": "~2.16.1",
+        "friendsofphp/php-cs-fixer": "~2.17.0",
         "mikey179/vfsstream": "^1.6",
         "phing/phing": "~2.16.1",
         "phpunit/phpunit": "^8",
@@ -52,18 +52,15 @@
     },
     "suggest": {
          "n98/magerun2-dist": "Deploys only the phar file. Use this to prevent dependency conflicts."
-    }, 
+    },
     "autoload": {
-        "psr-0": {
-            "N98": "src"
-        },
         "psr-4": {
-            "N98\\": "shared/src/N98"
+            "N98\\": "src/N98"
         }
     },
     "autoload-dev": {
-        "psr-0": {
-            "N98": "tests"
+        "psr-4": {
+            "N98\\": "tests/N98"
         }
     },
     "authors": [
