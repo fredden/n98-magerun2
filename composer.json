@@ -27,7 +27,7 @@
         "ext-posix": "*",
         "ext-zip": "*",
         "adbario/php-dot-notation": "^2.2",
-        "composer/composer": "~2.0.11",
+        "composer/composer": "~2.1.1",
         "fzaninotto/faker": "~1.4",
         "n98/junit-xml": "~1.0",
         "pbergman/tree-helper": "^1.0",
@@ -43,7 +43,7 @@
     "require-dev": {
         "bamarni/symfony-console-autocomplete": "^1.2.0",
         "captainhook/captainhook": "^5.3",
-        "friendsofphp/php-cs-fixer": "~2.19.0",
+        "friendsofphp/php-cs-fixer": "~3.0.0",
         "mikey179/vfsstream": "^1.6",
         "phing/phing": "~2.16.1",
         "phpunit/phpunit": "^8",
